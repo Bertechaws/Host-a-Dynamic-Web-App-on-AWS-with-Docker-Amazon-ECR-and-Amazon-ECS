@@ -1,12 +1,13 @@
 # Host-a-Dynamic-Web-App-on-AWS-with-Docker-Amazon-ECR-and-Amazon-ECS
 
-![IMG_2142](https://github.com/user-attachments/assets/79d37222-c9a4-4cfb-9569-1be9e43160e2)
-
-# Dynamic Web App Deployment on AWS with Docker, Amazon ECR, and Amazon ECS
 This project demonstrates how to deploy a dynamic web application on AWS using Docker, Amazon ECR (Elastic Container Registry), and Amazon ECS (Elastic Container Service). The deployment is achieved using a 3-tier architecture with public and private subnets in two availability zones, ensuring high availability and fault tolerance.
 
 
-Tools & Technologies
+![IMG_2142](https://github.com/user-attachments/assets/79d37222-c9a4-4cfb-9569-1be9e43160e2)
+
+# Dynamic Web App Deployment on AWS with Docker, Amazon ECR, and Amazon ECS
+
+                             Tools & Technologies
 Docker: Containerization of the application.
 
 Git: Version control for source code.
