@@ -197,6 +197,47 @@ To get started with this project, ensure you have the following tools installed:
 4. **Create an Application Load Balancer** and register an SSL certificate with Amazon Certificate Manager.
 5. **Create an HTTPS Listener** for the Load Balancer.
 6. **Store Environment Variables** in an S3 bucket and create an IAM role for ECS tasks.
+7. Set Up IAM Role for ECS Task Definition:
+
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "VisualEditor0",
+            "Effect": "Allow",
+            "Action": "s3:GetObject",
+            "Resource": "arn:aws:s3:::rentzone-app-env-variables/rentzone.env"
+        },
+        {
+            "Sid": "VisualEditor1",
+            "Effect": "Allow",
+            "Action": "s3:GetBucketLocation",
+            "Resource": "arn:aws:s3:::rentzone-app-env-variables"
+        }
+    ]
+}
+Create ECS Cluster and Task Definition:
+
+Define your ECS Cluster and Task Definition using the AWS Management Console or AWS CLI.
+Create an ECS Service with Auto Scaling and an Application Load Balancer:
+
+Set up Auto Scaling policies and an Application Load Balancer to manage traffic.
+Configure Route 53 for domain management:
+
+Create a hosted zone and add DNS records to point to the Application Load Balancer.
+Register SSL Certificate with Certificate Manager and create an HTTPS listener for the Application Load Balancer.
+
+Create S3 Bucket for storing environment variables:
+
+Upload the environment variables file to an S3 bucket.
+Set Up Bastion Host for secure SSH access:
+
+Launch an EC2 instance and configure it as a Bastion Host.
+Securely Run Flyway Migrate with an SSH Tunnel:
+
+Create an SSH tunnel to the RDS instance.
+
+ssh -i <key_pair.pem> ec2-user@<public-ip> -L 3306:<rds-endpoint>:3306 -N
 
 ---
 
