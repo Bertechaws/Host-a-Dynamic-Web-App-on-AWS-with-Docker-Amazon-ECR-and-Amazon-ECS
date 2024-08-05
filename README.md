@@ -1,5 +1,6 @@
 # Host-a-Dynamic-Web-App-on-AWS-with-Docker-Amazon-ECR-and-Amazon-ECS
 
+![IMG_2142](https://github.com/user-attachments/assets/79d37222-c9a4-4cfb-9569-1be9e43160e2)
 
 # Dynamic Web App Deployment on AWS with Docker, Amazon ECR, and Amazon ECS
 
@@ -36,6 +37,8 @@ To get started with this project, ensure you have the following tools installed:
 ---
 
 ## Part 1: Building a 3-Tier AWS Network VPC
+![IMG_2144](https://github.com/user-attachments/assets/8598bc82-8782-40d6-a263-9dbed3938c61)
+
 
 1. **Create a VPC** with public and private subnets in two Availability Zones for high availability and fault tolerance.
 2. **Set up an Internet Gateway** to allow communication between the VPC and the internet.
