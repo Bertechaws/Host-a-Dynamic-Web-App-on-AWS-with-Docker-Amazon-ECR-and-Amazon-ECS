@@ -8,23 +8,41 @@ This project demonstrates how to deploy a dynamic web application on AWS using D
 
 Tools & Technologies
 Docker: Containerization of the application.
+
 Git: Version control for source code.
+
 GitHub: Repository hosting for Dockerfile and application code.
+
 AWS CLI: Command-line interface for managing AWS services.
+
 Flyway: Database schema migration tool.
+
 Visual Studio Code: IDE for script development.
+
 Amazon ECR: Docker image storage.
+
 Amazon ECS: Container orchestration on AWS.
+
 VPC: Virtual network setup.
+
 Amazon RDS: Relational database service.
+
 ECS Fargate: Serverless compute for containers.
+
 Application Load Balancer: Load distribution.
+
 Auto Scaling: Dynamic scaling of ECS tasks.
+
 Route 53: Domain name registration and DNS management.
+
 AWS S3: Storage for environment variables.
+
 IAM Roles: Permissions management for ECS tasks.
+
 Bastion Host: Secure SSH access.
+
 Security Groups: Network access control.
+
 Certificate Manager: SSL/TLS certificate management.
 ---
 
