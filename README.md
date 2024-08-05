@@ -198,7 +198,6 @@ To get started with this project, ensure you have the following tools installed:
 5. **Create an HTTPS Listener** for the Load Balancer.
 6. **Store Environment Variables** in an S3 bucket and create an IAM role for ECS tasks.
 7. Set Up IAM Role for ECS Task Definition:
-
 {
     "Version": "2012-10-17",
     "Statement": [
@@ -216,6 +215,7 @@ To get started with this project, ensure you have the following tools installed:
         }
     ]
 }
+
 Create ECS Cluster and Task Definition:
 
 Define your ECS Cluster and Task Definition using the AWS Management Console or AWS CLI.
