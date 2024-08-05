@@ -202,7 +202,7 @@ To get started with this project, ensure you have the following tools installed:
     "Version": "2012-10-17",
     "Statement": [
         {
-            "Sid": "VisualEditor0",
+              "Sid": "VisualEditor0",
             "Effect": "Allow",
             "Action": "s3:GetObject",
             "Resource": "arn:aws:s3:::rentzone-app-env-variables/rentzone.env"
